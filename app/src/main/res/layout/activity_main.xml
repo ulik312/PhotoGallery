@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/teal_200"
     tools:context=".MainActivity">
 
     <TextView
@@ -30,14 +31,15 @@
         android:paddingBottom="100dp"
         android:clipToPadding="false"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-        tools:listitem="@layout/item_img_gallery"/>
+        tools:listitem="@layout/item_img_gallery"
+        android:background="@color/black"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/bg_main_r16"
+        android:background="@drawable/bg_main"
         android:paddingHorizontal="12dp"
         android:layout_margin="12dp">
 
@@ -58,7 +60,7 @@
             android:id="@+id/btn_next"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:backgroundTint="#F2994A"
+            android:backgroundTint="#FF018786"
             app:cornerRadius="8dp"
             android:text="@string/btn_ok"
             android:textAllCaps="false"

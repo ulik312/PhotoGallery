@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/teal_200"
     tools:context=".SecondActivity">
 
     <TextView
@@ -29,6 +30,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title2"
         app:spanCount="3"
-        tools:listitem="@layout/item_img_selected"/>
+        tools:listitem="@layout/item_img_selected"
+        android:background="@color/black"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

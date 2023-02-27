@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/bg_selected"
-            android:src="@drawable/ic_done"
+            android:src="@drawable/ic_chek"
             android:padding="36dp"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

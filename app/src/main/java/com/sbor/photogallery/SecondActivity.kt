@@ -1,6 +1,6 @@
 package com.sbor.photogallery
 
-import android.R
+//import android.R
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.sbor.photogallery.adapter.SelectedAdapter
